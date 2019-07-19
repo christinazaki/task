@@ -1,0 +1,60 @@
+
+<header></header>
+<!-- //trips || async)?.title//jwa dh
+( trips  | async)
+| {{  trips .title | async }}    |  -->
+            <!-- <img src="../../assets/imgs/389_636896432315268827.jpg"> -->
+<ion-content  >
+    <!-- <div *ngFor="let p of trips )">
+        <p>Name2: {{ p.title  }}</p> 
+    </div> -->
+
+    <!-- <p>Name2: {{ trips.title }}</p> -->
+  <p>Name3: {{trips?.title  }}</p>
+  <p>Name3: {{trips.address  }} k</p>
+  <img src="{{((trips || async)?.address)}}"> 
+  <!--   <ion-slides *ngFor= "let trips of ( trips  | async)"  spaceBetween="0"  pager="true"   autoplay="2000" loop="true" speed="3000" >
+      
+       
+        <ion-slide>
+         
+               <img src="{{trips.img[0]}}"> 
+              <div class="content">
+              <ion-item  no-lines class="item-color">
+                  <ion-icon item-right name="arrow-forward"  (click)="goToForward()" color="light"></ion-icon>
+                  <ion-icon item-left name="star-outline" (click)="goToStar()" color="light"></ion-icon>
+                  
+                  <ion-icon item-left name="share"  (click)="goToShare()" color="light"></ion-icon>
+               
+                </ion-item>
+              </div>
+       </ion-slide>
+  
+        <ion-slide>
+            <img src="../../assets/imgs/389_636896432315268827.jpg">
+            <div class="content">
+                <ion-item  no-lines class="item-color">
+                    <ion-icon item-right name="arrow-forward"  (click)="goToForward()" color="light"></ion-icon>
+                    <ion-icon item-left name="star-outline" (click)="goToStar()" color="light"></ion-icon>
+                    
+                    <ion-icon item-left name="share"  (click)="goToShare()" color="light"></ion-icon>
+                 
+                  </ion-item>
+                </div>
+        </ion-slide>
+        <ion-slide>
+            <img src="../../assets/imgs/389_636896432315268827.jpg">
+            <div class="content">
+                <ion-item  no-lines class="item-color">
+                    <ion-icon item-right name="arrow-forward"  (click)="goToForward()" color="light"></ion-icon>
+                    <ion-icon item-left name="star-outline" (click)="goToStar()" color="light"></ion-icon>
+                    
+                    <ion-icon item-left name="share"  (click)="goToShare()" color="light"></ion-icon>
+                 
+                  </ion-item>
+                </div>
+        </ion-slide>
+      
+    </ion-slides> -->
+   
+</ion-content>

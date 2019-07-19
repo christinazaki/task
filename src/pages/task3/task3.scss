@@ -1,0 +1,45 @@
+page-task3 {
+    .item-color{
+        border-color: rgba(0, 0, 0, 0);
+        background-color:rgba(0,0,0,0);
+        
+       }
+       .content {
+        position: absolute;
+       
+      
+        background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+        color:white;
+        width: 100%;
+        top: 0px;
+        padding: 20px;
+      }
+      
+    ion-slides {
+     
+     
+    .swiper-pagination {// dh position el dots
+      top:200px ;
+     padding-right: 250px ;
+      
+      }
+      .swiper-pagination-bullet {//lon dots
+        background: map-get($colors, light);
+        
+    }
+    ion-slide {
+      top:-15px; //34an 2a5li el photo f header
+     
+    }
+    
+      height: 40%;
+      width:100%;
+      background-size: cover;
+      background-repeat:no-repeat;
+      background-position:center ;
+     
+      padding: 0;
+      margin: 0;
+      
+    }
+}

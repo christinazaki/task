@@ -1,0 +1,63 @@
+
+ 
+
+<header></header>
+<ion-content   >
+<!-- 4alna klmt padding dih 4alt el margin ll image   -->
+    
+  <div class="background-header">
+      <ion-item  no-lines class="item-color">
+          <ion-icon item-right name="arrow-forward"  (click)="goToForward()" color="light"></ion-icon>
+          <ion-icon item-left name="star-outline" (click)="goToStar()" color="light"></ion-icon>
+          
+          <ion-icon item-left name="share"  (click)="goToShare()" color="light"></ion-icon>
+        </ion-item>
+        <ion-buttons >
+            <button ion-button icon-only clear (click)="goToStar()" color="light"  >
+                          
+                <ion-icon item-left name="star-outline"></ion-icon>
+          </button>
+          <button ion-button icon-only clear (click)="goToShare()" color="light"  >
+                            
+              <ion-icon  item-left name="share"></ion-icon>
+        </button>
+        <button ion-button icon-only clear (click)="goToForward()" color="light"  >
+          
+            <ion-icon item-right name="arrow-forward"></ion-icon>
+      </button>
+          </ion-buttons>
+      <ion-grid>
+          <ion-row>
+              <ion-col>
+                  <ion-buttons start>
+                      <button ion-button icon-only clear (click)="goToStar()" color="light" >
+                          
+                          <ion-icon item-left name="star-outline"></ion-icon>
+                    </button>
+                  </ion-buttons>
+                </ion-col>
+                <ion-col>
+                    <ion-buttons start>
+                        <button ion-button icon-only clear (click)="goToShare()" color="light" >
+                            
+                            <ion-icon  item-left name="share"></ion-icon>
+                      </button>
+                    </ion-buttons>
+                  </ion-col> 
+                  <ion-col></ion-col>
+                  <ion-col></ion-col>
+              <ion-col>
+       <ion-buttons end>
+      <button ion-button icon-only clear (click)="goToForward()" color="light" >
+          
+          <ion-icon item-right name="arrow-forward"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-col>
+
+
+</ion-row>
+</ion-grid>
+  </div>
+
+</ion-content>

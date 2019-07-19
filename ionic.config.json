@@ -1,0 +1,7 @@
+{
+  "name": "FirebaseSection",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
